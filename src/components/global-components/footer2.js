@@ -48,6 +48,9 @@ class Footer_v2 extends Component {
 								<div className="footer-widget footer-widget__links">
 									<h3 className="footer-widget__title">Nav Links</h3>
 									<ul className="footer-widget__links-list list-unstyled">
+										<li>
+			            					<Link to="/dashboard">Dashboard</Link>
+			          					</li>
 										<li><Link to="/about">About</Link></li>
 										<li><Link to="/service">Services</Link></li>
 										<li><Link to="/about">Pricing and Plans</Link></li>

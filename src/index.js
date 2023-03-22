@@ -8,6 +8,8 @@ import Service from './components/service';
 import Pricing from './components/pricing';
 import Faq from './components/faq';
 import Contact from './components/contact';
+import ErrorPge from './components/ErrorPage';
+import UnexpectedError from './components/UnexptError';
 
 class Root extends Component {
     render() {
@@ -22,6 +24,8 @@ class Root extends Component {
 	                    <Route path="/pricing" component={Pricing} />
 	                    <Route path="/faq" component={Faq} />
 	                    <Route path="/contact" component={Contact} />
+						<Route exact path="/ue" component={UnexpectedError}/>
+						<Route path="*" component={ErrorPge} />
 	                </Switch>
 	                </div>
                 </HashRouter>

@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import Sidebar from './sidebar';
+import './sidebar.css';
+import './errorpage.js';
 
 class DashboardPage extends Component {
 
     render() {
-
-        let publicUrl = process.env.PUBLIC_URL+'/'
-
     return	<div>
-		<h1>Testing</h1>
-        </div>
+				<Sidebar />
+        	</div>
         }
 }
 

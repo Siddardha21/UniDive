@@ -1,16 +1,16 @@
 import React from 'react';
 import Navbar from './global-components/navbar-v2';
 import PageHeader from './global-components/page-header';
-import DashboardPage from './section-components/dashboard';
+import UnexpError from './section-components/unexpterror';
 import Footer from './global-components/footer-v2';
 
-const Dashboard = () => {
+const UnexpectedError = () => {
     return <div>
         <Navbar />
-        <PageHeader headertitle="UniDive Dashboard"  />
-        <DashboardPage />
+        <PageHeader headertitle="OOPS!"  />
+        <UnexpError />
         <Footer />
     </div>
 }
 
-export default Dashboard
+export default UnexpectedError

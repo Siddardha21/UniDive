@@ -1,0 +1,113 @@
+.Displayrent {
+  border: 2px solid black;
+  outline: #4CAF50 solid 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;  
+  padding: 20px;
+  text-align: center;
+}
+
+#app{
+  /*background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80');*/
+  background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80');
+  background-repeat:round;
+  
+}
+
+/*.undergrad_table{
+
+  width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 0;
+    box-sizing: inherit;
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: gray;
+}*/
+
+table, th, td, thead, tr {
+  border: 2px solid;
+  padding: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;  
+  padding: 20px;
+  text-align: center;
+    border-radius: 0;
+    box-sizing: content-box;    
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+.pfwGrad{
+
+text-align: center;
+display: table;
+  margin: 0 auto;
+
+}
+
+
+
+.indtech_undergrad{
+
+text-align: center;
+}
+
+h5{
+
+  text-align: left;
+  font-size: large;
+}
+
+h6{
+
+  font-size: large;
+}
+
+.ss{
+
+  font-size: large;
+  font-style: oblique;
+
+}
+
+.animate_character {
+  text-align: center;
+  text-transform: uppercase;
+  background-image: linear-gradient(-190deg, #25d139 0%, #44107a 29%, #e60a53 67%, #d9d317 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: textclip 1s linear infinite;
+    animation: textclip 1s linear infinite;
+  display: inline-block;
+  font-size: 50px;
+}
+
+@-webkit-keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+a{
+
+  color:blue;
+}

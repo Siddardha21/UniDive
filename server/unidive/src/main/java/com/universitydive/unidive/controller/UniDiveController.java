@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/uniDive")
+@CrossOrigin
 public class UniDiveController {
     @Autowired
     private UniDiveService uniDiveService;

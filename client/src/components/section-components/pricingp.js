@@ -134,7 +134,7 @@ class Pricing extends Component {
           <div className="inner-container">
             <div className="cta-one__left">
               <h3>Advertise on our platform</h3>
-              <p>Are you a business owner/educational institution representative? We got a special pricing for you as well! <br/><br/>Submit your particulars to get a personalized quote!</p>
+              {/* <p>Are you a business owner/educational institution representative? We got a special pricing for you as well! <br/><br/>Submit your particulars to get a personalized quote!</p> */}
             </div>
             <div className="cta-one__right">
               <Link to="/contact" className="thm-btn cta-one__btn">Quotation</Link>

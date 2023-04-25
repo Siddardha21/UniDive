@@ -64,12 +64,12 @@ class Footer_v2 extends Component {
 								<div className="footer-widget footer-widget__links">
 									<h3 className="footer-widget__title">Quick Links</h3>
 									<ul className="footer-widget__links-list list-unstyled">
-										<li><Link to="#">Support</Link></li>
-										<li><Link to="#">Newsletter</Link></li>
+										<li><Link to="/yupitsbroken">Support</Link></li>
+										<li><Link to="/newsletter">Newsletter</Link></li>
 										<li><Link to="#">Join the Team</Link></li>
-										<li><Link to="#">Partner Websites</Link></li>
-										<li><Link to="#">Privacy Statement</Link></li>
-										<li><Link to="#">Terms & Conditions</Link></li>
+										<li><Link to="/partner">Partner Websites</Link></li>
+										<li><Link to="/privacy">Privacy Statement</Link></li>
+										<li><Link to="/terms">Terms & Conditions</Link></li>
 									</ul>
 								</div>
 							</div>

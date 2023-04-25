@@ -409,13 +409,6 @@ h6 {
 	padding-bottom: 11.5px;
 }
 
-.main-nav__one .main-nav__navigation-box>li.dropdown>a::after {
-	content: '\f107';
-	font-family: 'Font Awesome 5 Pro';
-	font-weight: 900;
-	margin-left: 9px;
-}
-
 
 /* Dropdown menu */
 
@@ -604,13 +597,6 @@ h6 {
 
 .main-nav__two .main-nav__navigation-box>li.current>a {
 	color: var(--thm-base);
-}
-
-.main-nav__two .main-nav__navigation-box>li.dropdown>a::after {
-	content: '\f107';
-	font-family: 'Font Awesome 5 Pro';
-	font-weight: 900;
-	margin-left: 9px;
 }
 
 .main-nav__two .side-menu__toggler span {
@@ -2814,26 +2800,6 @@ h6 {
 	cursor: pointer;
 	position: relative;
 	padding-right: 30px;
-}
-
-.faq-one .accordian-title::before {
-	content: '\f06e';
-	font-family: 'Font Awesome 5 Pro';
-	font-weight: 400;
-	color: #233d63;
-	font-size: 18px;
-	position: absolute;
-	top: 50%;
-	right: 30px;
-	-webkit-transform: translateY(-50%);
-	transform: translateY(-50%);
-	-webkit-transition: 500ms;
-	transition: 500ms;
-}
-
-.faq-one .accordian.active .accordian-title::before {
-	content: '\f070';
-	color: #ff7200;
 }
 
 .faq-one .accordian {

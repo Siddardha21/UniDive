@@ -43,9 +43,9 @@ class Services extends Component {
                         <div className="services-one__single-inner">
 
                           <h3>
-                            <Link to="/services-one-details">
+                            <a>
                               University Information
-                            </Link>
+                            </a>
                           </h3>
                           <p>
                             We provide comprehensive and detailed information
@@ -67,9 +67,9 @@ class Services extends Component {
                         />
                         <div className="services-one__single-inner">
                           <h3>
-                            <Link to="/services-one-details">
+                            <a>
                               Job Opportunities
-                            </Link>
+                            </a>
                           </h3>
                           <p>
                             We provide precise and helpful information regarding
@@ -92,9 +92,9 @@ class Services extends Component {
                         />
                         <div className="services-one__single-inner">
                           <h3>
-                            <Link to="/services-one-details">
+                            <a>
                               City Information
-                            </Link>
+                            </a>
                           </h3>
                           <p>
                             We provide information regarding the cities in which
@@ -116,9 +116,9 @@ class Services extends Component {
                         />
                         <div className="services-one__single-inner">
                           <h3>
-                            <Link to="/services-one-details">
+                            <a>
                               Financial Information & Advice
-                            </Link>
+                            </a>
                           </h3>
                           <p>
                             We offer sound financial information and advice for
@@ -143,7 +143,7 @@ class Services extends Component {
             <div className="services-one-center">
               <div className="services-one__content">
                 <h3>
-                  <Link to="/service">Student Connections</Link>
+                  <a>Student Connections</a>
                 </h3>
                 <p>
                   We connect current students at the universities with students
@@ -155,7 +155,7 @@ class Services extends Component {
             <div className="services-one-center">
               <div className="services-one__content">
                 <h3>
-                  <Link to="/service">On-Campus Job Opportunities</Link>
+                  <a>On-Campus Job Opportunities</a>
                 </h3>
                 <p>
                   We provide key information regarding the part-time jobs
@@ -167,7 +167,7 @@ class Services extends Component {
             <div className="services-one-center">
               <div className="services-one__content">
                 <h3>
-                  <a href="#">Housing & Renting Info</a>
+                  <a>Housing & Renting Info</a>
                 </h3>
                 <p>
                   We provide sound information and advice regarding the optimal
@@ -196,7 +196,7 @@ class Services extends Component {
               exceptional services and value for their investment.
             </p>
             <Link
-              to="/services-one-details"
+              to="/pricing"
               className="thm-btn services-one-cta__btn"
             >
               Check out our Prices

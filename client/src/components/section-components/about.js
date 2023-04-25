@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { FaLink, FaLinkedin } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitterSquare } from "react-icons/fa";
 
 class AboutPage extends Component {
 
@@ -56,10 +60,10 @@ class AboutPage extends Component {
 		          </div>
 		          <div className="about-page-team__content">
 		            <div className="about-page-team__social">
-					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><i className="fab fa-linkedin" /></a>
-					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><i className="fab fa-instagram" /></a>
-					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><i className="fab fa-facebook-f" /></a>
-					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><i className="fab fa-twitter" /></a>
+					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><FaLinkedin/></a>
+					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><FaFacebookSquare/></a>
+					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><FaInstagram/></a>
+					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><FaTwitterSquare/></a>
 		            </div>
 		            <h3>Srinivasa Siddardha</h3>
 		            <p>Lankireddy</p>
@@ -73,10 +77,10 @@ class AboutPage extends Component {
 		          </div>
 		          <div className="about-page-team__content">
 		            <div className="about-page-team__social">
-					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><i className="fab fa-linkedin" /></a>
-					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><i className="fab fa-instagram" /></a>
-					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><i className="fab fa-facebook-f" /></a>
-					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><i className="fab fa-twitter" /></a>
+					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><FaLinkedin/></a>
+					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><FaFacebookSquare/></a>
+					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><FaInstagram/></a>
+					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><FaTwitterSquare/></a>
 		            </div>
 		            <h3>Yaswanth Krishna</h3>
 		            <p>Karuturi</p>
@@ -90,10 +94,10 @@ class AboutPage extends Component {
 		          </div>
 		          <div className="about-page-team__content">
 		            <div className="about-page-team__social">
-					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><i className="fab fa-linkedin" /></a>
-					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><i className="fab fa-instagram" /></a>
-					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><i className="fab fa-facebook-f" /></a>
-					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><i className="fab fa-twitter" /></a>
+					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><FaLinkedin/></a>
+					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><FaFacebookSquare/></a>
+					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><FaInstagram/></a>
+					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><FaTwitterSquare/></a>
 		            </div>
 		            <h3>Naga Chaitanya</h3>
 		            <p>Nalluru</p>
@@ -107,10 +111,10 @@ class AboutPage extends Component {
 		          </div>
 		          <div className="about-page-team__content">
 		            <div className="about-page-team__social">
-					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><i className="fab fa-linkedin" /></a>
-					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><i className="fab fa-instagram" /></a>
-					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><i className="fab fa-facebook-f" /></a>
-					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><i className="fab fa-twitter" /></a>
+					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><FaLinkedin/></a>
+					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><FaFacebookSquare/></a>
+					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><FaInstagram/></a>
+					<a href="https://blogs.motiondevelopment.top/articles/UniDive"><FaTwitterSquare/></a>
 		            </div>
 		            <h3>Prem Chand</h3>
 		            <p>Gopidinne</p>

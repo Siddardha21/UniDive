@@ -15,61 +15,61 @@ function UnivdashPage() {
 
   return (
     <div >
-        <section className="service-eight  go-top">
+        <section className="service-uni  go-top">
           <div className="container">
             <div className="services-one-block-title text-center">
-              <p>Universities</p>
-              <h3>Few of the universities in Indiana!</h3>
+              <br></br><br></br>
+              <h3>Explore Indiana!</h3>
             </div>
                 {universities.map((data) => ( 
                 <div key={data.id}>
-                    <div className="services-one-center">
-                    <div className="services-one__content">
+                    <div className="services-two-center">
+                    <div className="services-two__content">
                     <h3>
                         <Link to="/univdash">{data.university}</Link>
                     </h3>
-                    <p>University About: {data.desc}</p>
+                    <p><span style={{ fontWeight: 'bold' }}>About:</span> {data.desc}</p><br></br>
                     {/* <p>State: {data.state}</p> */}
-                    <p>University Official Website: {data.website}</p>
-                    <p>Address: {data.address}</p>
-                    <p>Contact Info: {data.contact}</p>
-                    <p>Email Id(outreach/admissions): {data.email}</p>
-                    <p>University Rankings Section: {data.rank}</p>
-                    <p>Popular programs offered: {data.programoffer}</p> 
-                    <p>Average course duration: {data.courseduration}</p>
-                    <p>Average Program Cost: {data.progcost}</p>
-                    <p>Average Insurance Cost: {data.insurancecost}</p>
-                    <p>Admission Criteria: {data.admissioncriteria}</p>
-                    <p>Course Delivery Method: {data.coursedelivery}</p>
-                    <p>Teacher to Student Ratio: {data.teacherstudentratio}</p>
-                    <p>International Students: {data.intlstudents}</p>
-                    <p>Research Interests: {data.researchint}</p>
-                    <p>Application Cost: {data.applcost}</p>
-                    <p>Average Expenses: {data.avgexpenses}</p>
-                    <p>On-campus living and costs: {data.oncampuscost}</p>
-                    <p>Off-campus living and costs: {data.offcampuscost}</p>
-                    <p>Part time/Job Opportunities: {data.parttimejob}</p>
-                    <p>On-campus Employment: {data.oncampusemploycrit}</p>
-                    <p>Scholarships: {data.scholarship}</p>
-                    <p>Assistantship: {data.methodofselection}</p>
-                    <p>Stipend: {data.stipend}</p>
-                    <p>Tution and Fees: {data.tutionandfees}</p>
-                    <p>Dependency Allotment: {data.depenedallotment}</p>
-                    <p>Medical Insurance: {data.medicalinsurance}</p>
-                    <p>U.S. Citizenship: {data.uscitizenship}</p>
-                    <p>Social climate and Support system: {data.socialclimate}</p>
-                    <p>Weather conditions and climate changes: {data.weather}</p>
-                    <p>Geographic Information: {data.geolocationinfo}</p>
-                    <p>Career Fairs: {data.jobnplacement}</p>
-                    <p>Sports and Outdoor Activities: {data.sportsactivities}</p>
-                    <p>Contact with student body: {data.contwithstudbodymem}</p>
-                    <p>What students have to say about the university: {data.studentsaboutuniv}</p>
-                    <p>Academics: {data.academics}</p>
-                    <p>Campus Life: {data.campuslife}</p>
-                    <p>Networking with faculty: {data.networkwithfaculty}</p>
-                    <p>City/Community and locality of the university: {data.citycommunitylocalty}</p>
-                    <p>Are on-campus jobs worth the effort: {data.campusjobfairsworth}</p>
-                    <p>A short write-up on university after life with the alumni: {data.alumni}</p>
+                    <p><span style={{ fontWeight: 'bold' }}>Official Website:</span> {data.website}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Address:</span> {data.address}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Contact Info:</span> {data.contact}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Email id (outreach/admissions):</span> {data.email}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Ranking:</span> {data.rank}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Popular programs offered:</span> {data.programoffer}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Average course duration:</span> {data.courseduration}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Average Program Cost:</span> {data.progcost}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Average Insurance Cost:</span> {data.insurancecost}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Admission Criteria:</span> {data.admissioncriteria}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Course Delivery Method:</span> {data.coursedelivery}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Teacher to Student Ratio:</span> {data.teacherstudentratio}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>International Students:</span> {data.intlstudents}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Research Interests:</span> {data.researchint}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Application Cost:</span> {data.applcost}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Average Expenses:</span> {data.avgexpenses}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>On-campus living and costs:</span> {data.oncampuscost}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Off-campus living and costs:</span> {data.offcampuscost}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Part time Job Opportunities:</span> {data.parttimejob}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>On-campus Employment:</span> {data.oncampusemploycrit}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Scholarships:</span> {data.scholarship}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Assistantships:</span> {data.methodofselection}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Stipend:</span> {data.stipend}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Tuition and Fees:</span> {data.tutionandfees}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Dependency Allotment:</span> {data.depenedallotment}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Medical Insurance:</span> {data.medicalinsurance}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Do you have to be a U.S. Citizen to qualify for a job?:</span> {data.uscitizenship}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Social climate and Support system:</span> {data.socialclimate}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Weather conditions and climate changes:</span> {data.weather}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Geographic Information:</span> {data.geolocationinfo}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Career Fairs:</span> {data.jobnplacement}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Sports and Outdoor Activities:</span> {data.sportsactivities}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Contact with student body:</span> {data.contwithstudbodymem}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>What students have to say about the university:</span> {data.studentsaboutuniv}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Academics:</span> {data.academics}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Campus Life:</span> {data.campuslife}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Networking with faculty:</span> {data.networkwithfaculty}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>City/Community and locality of the university:</span> {data.citycommunitylocalty}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>Are on-campus jobs worth the effort:</span> {data.campusjobfairsworth}</p><br></br>
+                    <p><span style={{ fontWeight: 'bold' }}>A short write-up on university after life with the alumni:</span> {data.alumni}</p><br></br>
                     </div>
                     </div>
                 </div>

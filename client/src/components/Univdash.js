@@ -7,7 +7,7 @@ import Footer from './global-components/footer-v2';
 const Univdash = () => {
     return <div>
         <Navbar />
-        <PageHeader headertitle="Unidive Dashboard"  />
+        <PageHeader headertitle="Universities"  />
         <UnivdashPage />
         <Footer />
     </div>

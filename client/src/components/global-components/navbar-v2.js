@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { FaAngleDown } from "react-icons/fa";
 
 class NavbarV2 extends Component {
 
@@ -30,7 +31,7 @@ class NavbarV2 extends Component {
 			            <Link to="/service">Services</Link>
 			          </li>
 			          <li className="dropdown">
-			            <a href="/pricing">Go Premium</a>
+			            <a href="/pricing">Go Premium<FaAngleDown/></a>
 			            <ul>
 			              <li><Link to="/pricing">Pricing</Link></li>
 			              <li><Link to="/faq">FAQ</Link></li>

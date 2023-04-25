@@ -1,4 +1,10 @@
 import React, { Component } from 'react';
+import { FaLinkedin } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitterSquare } from "react-icons/fa";
+import { FaLongArrowAltRight } from "react-icons/fa";
+
 
 class Footer_v1 extends Component {
 
@@ -38,7 +44,7 @@ class Footer_v1 extends Component {
 										<p>One-stop solution for all students studying or wish to study at their university of choice</p>
 										<form action="#" className="footer__newsletter">
 											<input type="text" placeholder="Subscribe to our Newsletter" />
-											<button type="submit"><i className="fa fa-long-arrow-alt-right" /></button>
+											<button type="submit"><FaLongArrowAltRight/></button>
 										</form>
 									</div>
 								</div>
@@ -47,16 +53,15 @@ class Footer_v1 extends Component {
 										<h3 className="footer-widget__title">Get Connected</h3>
 										<div className="footer-widget__contact-box">
 											<div className="footer-widget__contact-top">
-												<i className="far fa-map-marked" />
 												<h3>Address</h3>
 											</div>
 											<p>2101 E Colesium Blvd, Fort Wayne, Indiana 46835-3119</p>
 										</div>
 										<div className="footer-widget__social">
-										    <a href="https://blogs.motiondevelopment.top/articles/UniDive"><i className="fab fa-linkedin" /></a>
-											<a href="https://blogs.motiondevelopment.top/articles/UniDive"><i className="fab fa-instagram" /></a>
-											<a href="https://blogs.motiondevelopment.top/articles/UniDive"><i className="fab fa-facebook-f" /></a>
-											<a href="https://blogs.motiondevelopment.top/articles/UniDive"><i className="fab fa-twitter" /></a>
+										    <a href="https://blogs.motiondevelopment.top/articles/UniDive"><FaLinkedin/></a>
+											<a href="https://blogs.motiondevelopment.top/articles/UniDive"><FaFacebookSquare/></a>
+											<a href="https://blogs.motiondevelopment.top/articles/UniDive"><FaInstagram/></a>
+											<a href="https://blogs.motiondevelopment.top/articles/UniDive"><FaTwitterSquare/></a>
 										</div>
 									</div>
 								</div>

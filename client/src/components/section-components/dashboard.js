@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
-import Sidebar from './sidebar';
-import './sidebar.css';
-import './errorpage.js';
+// import React, { Component } from 'react';
+// import Sidebar from './sidebar';
+// import './sidebar.css';
+// import './errorpage.js';
 
-class DashboardPage extends Component {
+// class DashboardPage extends Component {
 
-    render() {
-    return	<div>
-				<Sidebar />
-        	</div>
-        }
-}
+//     render() {
+//     return	<div>
+// 				<Sidebar />
+//         	</div>
+//         }
+// }
 
-export default DashboardPage
+// export default DashboardPage

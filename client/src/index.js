@@ -10,6 +10,13 @@ import Faq from './components/faq';
 import Contact from './components/contact';
 import ErrorPge from './components/ErrorPage';
 import UnexpectedError from './components/UnexptError';
+import TermsPage from './components/terms';
+import NewsletterPage from './components/newsletter';
+import PartnerPage from './components/partner';
+import PrivacyPolicy from './components/privacy';
+
+
+
 
 class Root extends Component {
     render() {
@@ -24,6 +31,10 @@ class Root extends Component {
 	                    <Route path="/pricing" component={Pricing} />
 	                    <Route path="/faq" component={Faq} />
 	                    <Route path="/contact" component={Contact} />
+						<Route path="/newsletter" component={NewsletterPage} />
+						<Route path="/partner" component={PartnerPage} />
+						<Route path="/terms" component={TermsPage}/>
+						<Route path="/privacy" component={PrivacyPolicy}/>
 						<Route exact path="/ue" component={UnexpectedError}/>
 						<Route path="*" component={ErrorPge} />
 	                </Switch>

@@ -1,4 +1,26 @@
 import React, { Component } from 'react';
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAM4hJhFEZXyvFIEuh4-ABxFCAynH8sLyg",
+  authDomain: "unidive-90382.firebaseapp.com",
+  databaseURL: "https://unidive-90382-default-rtdb.firebaseio.com",
+  projectId: "unidive-90382",
+  storageBucket: "unidive-90382.appspot.com",
+  messagingSenderId: "706605745582",
+  appId: "1:706605745582:web:2fe92cfab3e3078af4743f",
+  measurementId: "G-HCHGBC9JX0"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 class Contact extends Component {
 
     render() {

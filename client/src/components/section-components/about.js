@@ -133,7 +133,7 @@ class AboutPage extends Component {
 			          <p>We are only one, but we are one. We cannot do everything, but we can do something. And we will not let what we cannot do interfere with what we can do. Don't expect to receive if you're not willing to give. Join hands in making the international community stronger and wiser.</p>
 			          <h4>Become a part of the Tribe!</h4>
 			          <p>Each one of us can make a difference. Together we can make change.</p>
-			          <Link to="/services-one-details" className="thm-btn about-page-join__btn">Apply Now</Link>
+			          <Link to="/apply" className="thm-btn about-page-join__btn">Apply Now</Link>
 			        </div>
 			      </div>
 			      <div className="col-xl-6 d-flex justify-content-center">

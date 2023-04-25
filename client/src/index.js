@@ -6,6 +6,8 @@ import HomeV1 from './components/home';
 import About from './components/about';
 import Service from './components/service';
 import Pricing from './components/pricing';
+import FinancePage from './components/Finance';
+import LegalPage from './components/Legal';
 import Faq from './components/faq';
 import Contact from './components/contact';
 import ErrorPge from './components/ErrorPage';
@@ -32,6 +34,8 @@ class Root extends Component {
 	                    <Route path="/service" component={Service} />
 	                    <Route path="/pricing" component={Pricing} />
 	                    <Route path="/faq" component={Faq} />
+						<Route path="/financials" component={FinancePage}/>
+						<Route path="/legals" component={LegalPage}/>
 	                    <Route path="/contact" component={Contact} />
 						<Route path="/newsletter" component={NewsletterPage} />
 						<Route path="/partner" component={PartnerPage} />

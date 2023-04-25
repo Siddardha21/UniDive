@@ -19,8 +19,11 @@ class Navbar extends Component {
 			      </div>
 			      <div className="main-nav__main-navigation">
 			        <ul className=" main-nav__navigation-box">
-					<li>
+					{/* <li>
 			            <Link to="/dashboard">Dashboard</Link>
+			        </li> */}
+					<li>
+			            <Link to="/univdash">Dashboard</Link>
 			        </li>
 			          <li>
 			            <Link to="/about">About</Link>

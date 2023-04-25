@@ -10,6 +10,7 @@ import Faq from './components/faq';
 import Contact from './components/contact';
 import ErrorPge from './components/ErrorPage';
 import UnexpectedError from './components/UnexptError';
+import Univdash from './components/Univdash';
 
 class Root extends Component {
     render() {
@@ -19,6 +20,7 @@ class Root extends Component {
 	                <Switch>
 	                    <Route exact path="/" component={HomeV1} />
 						<Route exact path="/dashboard" component={Dashboard} />
+						<Route exact path="/univdash" component={Univdash} />
 	                    <Route path="/about" component={About} />
 	                    <Route path="/service" component={Service} />
 	                    <Route path="/pricing" component={Pricing} />

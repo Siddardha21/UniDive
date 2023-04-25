@@ -20,6 +20,9 @@ class NavbarV2 extends Component {
 					  <li>
 			            <Link to="/dashboard">Dashboard</Link>
 			          </li>
+					  <li>
+			            	<Link to="/univdash">Univdash</Link>
+			          	</li>
 			          <li>
 			            <Link to="/about">About</Link>
 			          </li>

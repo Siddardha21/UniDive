@@ -51,6 +51,9 @@ class Footer_v2 extends Component {
 										<li>
 			            					<Link to="/dashboard">Dashboard</Link>
 			          					</li>
+										<li>
+			            					<Link to="/univdash">Univdash</Link>
+			          					</li>
 										<li><Link to="/about">About</Link></li>
 										<li><Link to="/service">Services</Link></li>
 										<li><Link to="/about">Pricing and Plans</Link></li>

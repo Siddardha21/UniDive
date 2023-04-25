@@ -35,6 +35,8 @@ class NavbarV2 extends Component {
 			            <ul>
 			              <li><Link to="/pricing">Pricing</Link></li>
 			              <li><Link to="/faq">FAQ</Link></li>
+						  <li><Link to="/Financials">Financials</Link></li>
+						  <li><Link to="/Legals">Legal information</Link></li>
 			            </ul>
 			          </li>
 			          <li>

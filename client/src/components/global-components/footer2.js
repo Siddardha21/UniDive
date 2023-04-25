@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-
+import { FaLinkedin } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitterSquare } from "react-icons/fa";
+import { FaLongArrowAltRight } from "react-icons/fa";
 class Footer_v2 extends Component {
 
 	componentDidMount() {
@@ -37,10 +41,10 @@ class Footer_v2 extends Component {
 									</Link>
 									<p>One-stop solution for all students studying or wish to study at their university of choice</p>
 									<div className="footer-widget__social">
-									<a href="https://blogs.motiondevelopment.top/articles/UniDive"><i className="fab fa-linkedin" /></a>
-									<a href="https://blogs.motiondevelopment.top/articles/UniDive"><i className="fab fa-instagram" /></a>
-									<a href="https://blogs.motiondevelopment.top/articles/UniDive"><i className="fab fa-facebook-f" /></a>
-									<a href="https://blogs.motiondevelopment.top/articles/UniDive"><i className="fab fa-twitter" /></a>
+									<a href="https://blogs.motiondevelopment.top/articles/UniDive"><FaLinkedin/></a>
+									<a href="https://blogs.motiondevelopment.top/articles/UniDive"><FaFacebookSquare/></a>
+									<a href="https://blogs.motiondevelopment.top/articles/UniDive"><FaInstagram/></a>
+									<a href="https://blogs.motiondevelopment.top/articles/UniDive"><FaTwitterSquare /></a>
 									</div>
 								</div>
 							</div>
@@ -82,15 +86,13 @@ class Footer_v2 extends Component {
 									<p>Subscribe to our newsletters to get latest updates!</p>
 									<form action="#" className="footer__newsletter">
 										<input type="text" name="s" placeholder="Enter Your Email" />
-										<button type="submit"><i className="fa fa-long-arrow-alt-right" /></button>
+										<button type="submit"><FaLongArrowAltRight /></button>
 									</form>
 									<ul className="footer-widget__contact-list list-unstyled">
 										<li>
-											<i className="far fa-map" />
 											<a>2101 E Colesium Blvd Fort Wayne<br></br>Indiana 46835-3119</a>
 										</li>
 										<li>
-											<i className="far fa-envelope" />
 											<a href="mailto:support@unidive.com">support@unidive.com</a>
 										</li>
 									</ul>

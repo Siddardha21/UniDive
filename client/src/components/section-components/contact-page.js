@@ -40,14 +40,12 @@ class Contact extends Component {
 		            <ul className="list-unstyled contact-page-one__info-list">
 		              <li>
 		                <div className="contact-page-one__info-list-title">
-		                  <i className="far fa-map-marked" />
 		                  Address :
 		                </div>
 		                <p>2101 E Colesium Blvd, <br />Fort Wayne, Indiana 46835-3119</p>
 		              </li>
 		              <li>
 		                <div className="contact-page-one__info-list-title">
-		                  <i className="far fa-envelope" />
 		                  Email Us :
 		                </div>
 		                <p><a href="mailto:support@unidive.com">support@unidive.com</a></p>

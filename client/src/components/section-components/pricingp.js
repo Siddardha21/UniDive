@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { FaCheck } from "react-icons/fa";
+
 
 class Pricing extends Component {
 
@@ -29,10 +31,10 @@ class Pricing extends Component {
                         <p><span>$</span>0</p>
                       </div>
                       <ul className="pricing-one__list list-unstyled">
-                        <li><i className="far fa-check" />Limited access</li>
-                        <li><i className="far fa-check" />Limited eligibility index attempts</li>
-                        <li><i className="far fa-check" />Limited access to statistical data</li>
-                        <li><i className="far fa-check" />24/7 support</li>
+                        <li><FaCheck />Limited access</li>
+                        <li><FaCheck />Limited eligibility index attempts</li>
+                        <li><FaCheck />Limited access to statistical data</li>
+                        <li><FaCheck />24/7 support</li>
                       </ul>
                       <a href="#" className="thm-btn pricing-one__btn">Choose Plan</a>
                     </div>
@@ -47,10 +49,10 @@ class Pricing extends Component {
                         <p><span>$</span>4.99</p>
                       </div>
                       <ul className="pricing-one__list list-unstyled">
-                        <li><i className="far fa-check" />Unlimited access to all resources</li>
-                        <li><i className="far fa-check" />Access to discussion forums</li>
-                        <li><i className="far fa-check" />Unlimited eligibility index attempts</li>
-                        <li><i className="far fa-check" />24/7 support</li>
+                        <li><FaCheck />Unlimited access to all resources</li>
+                        <li><FaCheck />Access to discussion forums</li>
+                        <li><FaCheck />Unlimited eligibility index attempts</li>
+                        <li><FaCheck />24/7 support</li>
                       </ul>
                       <a href="#" className="thm-btn pricing-one__btn">Choose Plan</a>
                     </div>
@@ -65,10 +67,10 @@ class Pricing extends Component {
                         <p><span>$</span>9.99</p>
                       </div>
                       <ul className="pricing-one__list list-unstyled">
-                        <li><i className="far fa-check" />Unlimited access to all resources</li>
-                        <li><i className="far fa-check" />Unlimited discussion forum posts</li>
-                        <li><i className="far fa-check" />Cash-out options upto $1000</li>
-                        <li><i className="far fa-check" />24/7 support</li>
+                        <li><FaCheck />Unlimited access to all resources</li>
+                        <li><FaCheck />Unlimited discussion forum posts</li>
+                        <li><FaCheck />Cash-out options upto $1000</li>
+                        <li><FaCheck />24/7 support</li>
                       </ul>
                       <a href="#" className="thm-btn pricing-one__btn">Choose Plan</a>
                     </div>

@@ -36,7 +36,7 @@ public class UnidiveController {
         return service.getUnivbyPincode(pincode);
     }
 
-    @GetMapping("state/{state}")
+    @GetMapping("/state/{state}")
     public List<Unidive> getUnivState(@PathVariable String state){
         return service.getUnivbyState(state);
     }

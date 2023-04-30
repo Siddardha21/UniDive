@@ -46,7 +46,7 @@ class Navbar extends Component {
 			        </ul>
 			      </div>
 			      <div className="main-nav__right">
-			        <Link to="#" className="thm-btn">Log-in / Sign-up</Link>
+			        <Link to="/login" className="thm-btn">Log-in / Sign-up</Link>
 			      </div>
 			    </div>
 			  </nav>

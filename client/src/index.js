@@ -17,6 +17,8 @@ import NewsletterPage from './components/newsletter';
 import PartnerPage from './components/partner';
 import PrivacyPolicy from './components/privacy';
 import Dashboard from './components/Univdash';
+import Login from './components/Login';
+import Register from './components/Register';
 
 
 
@@ -41,6 +43,8 @@ class Root extends Component {
 						<Route path="/partner" component={PartnerPage} />
 						<Route path="/terms" component={TermsPage}/>
 						<Route path="/privacy" component={PrivacyPolicy}/>
+						<Route path="/login" component={Login}/>
+						<Route path="/register" component={Register}/>
 						<Route exact path="/ue" component={UnexpectedError}/>
 						<Route path="*" component={ErrorPge} />
 	                </Switch>
